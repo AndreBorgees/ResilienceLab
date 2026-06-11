@@ -64,4 +64,7 @@ Desktop.ini
 # Ignore package lock files (optional)
 project.lock.json
 
+# Redis data created by Docker/Redis
+redis-data/
+
 # End of file
