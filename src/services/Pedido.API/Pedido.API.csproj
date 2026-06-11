@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+    <PackageReference Include="StackExchange.Redis" Version="2.13.17" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\building blocks\Core\Core.csproj" />
+    <ProjectReference Include="..\..\building blocks\WebAPI.Core\WebAPI.Core.csproj" />
+    <ProjectReference Include="..\..\Integrations\Pedido.Integrations.Sdk\Pedido.Integrations.Sdk.csproj" />
+    <ProjectReference Include="..\Pedido.Application\Pedido.Application.csproj" />
+  </ItemGroup>
+
+</Project>

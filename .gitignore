@@ -1,0 +1,67 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+bin/
+obj/
+out/
+artifacts/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# NuGet
+packages/
+*.nupkg
+.nuget/
+
+# Logs
+*.log
+logs/
+TestResults/
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+coverage*.xml
+
+# Publish
+publish/
+
+# User secrets and local settings
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+*.local.settings.json
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+~$*
+
+# Misc
+*.db
+*.sqlite
+*.bak
+*.backup
+
+# Ignore JetBrains Rider caches
+.idea/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore package lock files (optional)
+project.lock.json
+
+# End of file

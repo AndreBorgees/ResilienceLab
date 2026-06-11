@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/Itens de Solução/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Building Block/" />
+  <Folder Name="/src/Building Block/Core/">
+    <Project Path="src/building blocks/Core/Core.csproj" />
+  </Folder>
+  <Folder Name="/src/Building Block/Services/">
+    <Project Path="src/building blocks/WebAPI.Core/WebAPI.Core.csproj" Id="f2f39bfe-afe4-4bab-9de4-6255f4fc3837" />
+  </Folder>
+  <Folder Name="/src/Integrations/">
+    <Project Path="src/Integrations/External.Pagamento.MockApi/External.Pagamento.MockApi.csproj" Id="96363959-a08a-47ef-b20a-55074e45038b" />
+    <Project Path="src/Integrations/Pedido.Integrations.Sdk/Pedido.Integrations.Sdk.csproj" Id="75a4ecb7-b189-43ba-a073-de8576f702b8" />
+  </Folder>
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Pedido/">
+    <Project Path="src/services/Pedido.API/Pedido.API.csproj" />
+    <Project Path="src/services/Pedido.Application/Pedido.Application.csproj" Id="fe678c21-5635-4249-a284-2816d42720a5" />
+    <Project Path="src/services/Pedido.Domain/Pedido.Domain.csproj" />
+    <Project Path="src/services/Pedido.Infra/Pedido.Infra.csproj" />
+  </Folder>
+</Solution>
